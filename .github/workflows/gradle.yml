@@ -13,5 +13,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          gradle-version: current
+          gradle-version: 5.3
           arguments: build publish
