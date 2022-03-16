@@ -13,5 +13,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          gradle-version: 6.0
+          gradle-version: 6.0.1
           arguments: build publish
